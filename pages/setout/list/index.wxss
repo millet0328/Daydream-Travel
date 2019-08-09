@@ -1,0 +1,88 @@
+/* pages/setout/list/index.wxss */
+
+.tab-title {
+  font-size: 26rpx;
+  text-align: center;
+  background-color: #ffb11b;
+  padding: 10rpx 0;
+}
+
+.tab-title scroll-view {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.tab-title .scroll-x {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-item {
+  line-height: 52rpx;
+  border-bottom: 2rpx solid #ffb11b;
+}
+
+.tab-item.active {
+  border-bottom: 2rpx solid #000;
+}
+
+/* 列表 */
+
+.tab-content .list {
+  width: 90%;
+  margin: 30rpx auto;
+}
+
+.list .li {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 8rpx;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+
+.photo image {
+  width: 100%;
+  height: 420rpx;
+  display: block;
+}
+
+.photo .tag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 26rpx;
+  padding: 10rpx 24rpx;
+  background-color: #ffb11b;
+  color: #333;
+  border-bottom-right-radius: 15rpx;
+}
+
+.photo::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+}
+
+.photo .start-time {
+  position: absolute;
+  bottom: 10rpx;
+  left: 20rpx;
+  font-size: 24rpx;
+  z-index: 10;
+}
+
+.title-box {
+  padding: 20rpx;
+  background-color: white;
+  font-size: 24rpx;
+}
+
+.title-box .title {
+  font-size: 28rpx;
+  padding-bottom: 10rpx;
+}

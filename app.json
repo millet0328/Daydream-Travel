@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/setout/list/index",
+    "pages/story/list/index"
+  ],
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#ffb11b",
+    "list": [
+      {
+        "text": "故事",
+        "pagePath": "pages/story/list/index"
+      },
+      {
+        "text": "出发",
+        "pagePath": "pages/setout/list/index"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/setout/list/index"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFB11B",
+    "navigationBarTitleText": "旅行",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

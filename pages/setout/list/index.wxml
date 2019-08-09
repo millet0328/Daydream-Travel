@@ -1,0 +1,57 @@
+<!--pages/setout/list/index.wxml-->
+<view class="container">
+  <!-- 导航 -->
+  <view class='tab-title'>
+    <scroll-view scroll-x="true" scroll-left="{{scrollLeft}}">
+      <view class='scroll-x'>
+        <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">
+          境外游
+        </view>
+        <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">
+          国内游
+        </view>
+        <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">
+          旅行学院
+        </view>
+        <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">
+          DayDream
+        </view>
+        <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">
+          搜索
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <!-- 列表 -->
+  <view class="tab-content">
+    <view class="list">
+      <view class="li">
+        <view class="photo relative">
+          <view class="tag">定制</view>
+          <image mode="aspectFill" src="../../../images/photo-2.png"></image>
+          <text class="start-time white">8月23日出发</text>
+        </view>
+        <view class="title-box black">
+          <view class="title">美国 · 黑石城 | 火人节自驾之旅</view>
+          <view class="info">
+            <text>6天5夜</text> ·
+            <text>美国</text>
+          </view>
+        </view>
+      </view>
+      <view class="li">
+        <view class="photo relative">
+          <image mode="aspectFill" src="../../../images/photo-3.png"></image>
+          <text class="start-time white">8月23日出发</text>
+        </view>
+        <view class="title-box black">
+          <view class="title">美国 · 黑石城 | 火人节自驾之旅</view>
+          <view class="info">
+            <text>6天5夜</text> ·
+            <text>美国</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

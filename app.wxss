@@ -1,0 +1,13 @@
+/**app.wxss**/
+
+.black {
+  color: #333;
+}
+
+.white {
+  color: white;
+}
+
+.relative {
+  position: relative;
+}
