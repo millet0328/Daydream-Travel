@@ -8,6 +8,18 @@
   color: white;
 }
 
+.grey {
+  color: #666;
+}
+
+.yellow {
+  color: #ffd11b;
+}
+
+.bg-grey {
+  background-color: #f8f8f8;
+}
+
 .relative {
   position: relative;
 }

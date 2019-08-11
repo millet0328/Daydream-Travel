@@ -1,0 +1,170 @@
+/* pages/story/detail/index.wxss */
+
+.container {
+  background-color: #f8f8f8;
+  padding-bottom: 108rpx;
+}
+
+/* header */
+
+.photo image {
+  width: 100%;
+  height: 420rpx;
+  display: block;
+}
+
+.photo::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+}
+
+.photo .title-box {
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  font-size: 32rpx;
+  z-index: 10;
+  padding: 30rpx 28rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.photo .title::before {
+  content: "“";
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 60rpx;
+  position: absolute;
+  left: -24rpx;
+  top: 10rpx;
+}
+
+.tag-box {
+  margin-top: 10rpx;
+}
+
+.tag-box .tag {
+  padding: 4rpx 16rpx;
+  border: 2rpx solid #ffd11b;
+  margin-right: 10rpx;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  color: #ffd11b;
+  display: inline-block;
+}
+
+/* 作者 */
+
+.section-box {
+  padding-top: 60rpx;
+  margin-bottom: 24rpx;
+  background-color: white;
+}
+
+.section-box .name {
+  border-left: 10rpx solid #ffd11b;
+  padding-left: 40rpx;
+  font-weight: bold;
+  font-family: "宋体", serif, monospace;
+}
+
+.section-box .name .cn {
+  font-size: 48rpx;
+  margin-bottom: 10rpx;
+}
+
+.section-box .name .en {
+  font-size: 22rpx;
+  font-style: italic;
+}
+
+.section-box .content {
+  padding: 60rpx 40rpx 80rpx 40rpx;
+  font-size: 32rpx;
+}
+
+.concept .sub-title {
+  font-size: 42rpx;
+  margin: 40rpx 0;
+}
+
+/* 推荐人 */
+
+.recommender {
+  display: flex;
+  align-items: center;
+  padding: 60rpx 40rpx 0 40rpx;
+}
+
+.recommender .avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.recommender .nickname {
+  font-size: 32rpx;
+}
+
+.recommender .sologan {
+  font-size: 24rpx;
+}
+
+.recommend-content {
+  position: relative;
+  background-color: #f8f8f8;
+  padding: 30rpx;
+  padding-top: 80rpx;
+}
+
+.recommend-content::before {
+  content: "推荐语";
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+  font-size: 50rpx;
+  color: #ddd;
+}
+
+/* 评论框 */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 108rox;
+  padding: 20rpx;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 -2rpx 10rpx 0 rgba(0, 0, 0, 0.15);
+}
+
+.comment-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24rpx;
+}
+
+.comment-box .input {
+  border: 1rpx solid #ddd;
+  padding: 6rpx 20rpx;
+  width: 70%;
+  border-radius: 40rpx;
+}
+
+.comment-box .link {
+  display: flex;
+  align-items: center;
+}
+
+.comment-box .link .num {
+  margin-left: 10rpx;
+}

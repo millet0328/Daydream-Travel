@@ -1,0 +1,36 @@
+<!--pages/story/comment/index.wxml-->
+<view class="container bg-grey">
+  <!-- 列表 -->
+  <view class="comment-list">
+    <view class="li">
+      <view class="user">
+        <image class="avatar" src="../../../images/avatar.jpeg"></image>
+        <text class="name grey">昵称昵称</text>
+      </view>
+      <view class="content black">
+        内容内容内容内容内容内容内容内容内容内容内
+      </view>
+      <view class="action-box">
+        <text class="date">2019-04-21</text>
+        <navigator class="reply yellow">回复TA</navigator>
+      </view>
+      <view class="reply-list">
+      </view>
+    </view>
+
+    <view class="li">
+      <view class="user">
+        <image class="avatar" src="../../../images/avatar.jpeg"></image>
+        <text class="name grey">昵称昵称</text>
+      </view>
+      <view class="content black">
+        内容内容内容内容内容内容内容内容内容内容内内容内容内容内容内容内容内容内容内容内容内
+      </view>
+      <view class="action-box">
+        <text class="date">2019-04-21</text>
+        <navigator class="reply yellow">回复TA</navigator>
+      </view>
+    </view>
+
+  </view>
+</view>

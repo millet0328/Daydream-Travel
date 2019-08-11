@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/setout/list/index",
-    "pages/story/list/index"
+    "pages/story/comment/index",
+    "pages/story/list/index",
+    "pages/story/detail/index",
+    "pages/setout/list/index"
   ],
   "tabBar": {
     "color": "#333",
-    "selectedColor": "#ffb11b",
+    "selectedColor": "#ffd11b",
     "list": [
       {
         "text": "故事",
@@ -23,7 +25,7 @@
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#FFB11B",
+    "navigationBarBackgroundColor": "#ffd11b",
     "navigationBarTitleText": "旅行",
     "navigationBarTextStyle": "black"
   },

@@ -1,2 +1,71 @@
 <!--pages/story/list/index.wxml-->
-<text>pages/story/list/index.wxml</text>
+<view class="container">
+  <!-- 轮播图 -->
+  <swiper>
+    <swiper-item>
+      <image src="../../../images/photo-3.png" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="../../../images/photo-2.png" class="slide-image" />
+    </swiper-item>
+  </swiper>
+  <!-- 列表 -->
+  <view class="list">
+    <navigator url="../detail/index" class="li">
+      <view class="header grey">
+        <view class="left">
+          <image src="../../../images/avatar.jpeg" class="avatar"></image>
+          <text class="nickname black">冯玲楠</text>
+          <text>为你推荐</text>
+        </view>
+        <text class="date">04-28</text>
+      </view>
+      <view class="photo relative">
+        <image mode="aspectFill" src="../../../images/photo-1.png"></image>
+        <view class="title white">
+          <text class="author">冯静</text>
+          <text> / </text>
+          <text>旅居日本17年，华人妈妈打造不一样的亲子之旅</text>
+        </view>
+      </view>
+      <view class="footer">
+        <view class="tag-box">
+          <text class="tag">境外游</text>
+          <text class="tag">瑜伽</text>
+          <text class="tag">民宿</text>
+        </view>
+        <view class="share">
+          分享
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../detail/index" class="li">
+      <view class="header grey">
+        <view class="left">
+          <image src="../../../images/avatar.jpeg" class="avatar"></image>
+          <text class="nickname black">冯玲楠</text>
+          <text>为你推荐</text>
+        </view>
+        <text class="date">04-28</text>
+      </view>
+      <view class="photo relative">
+        <image mode="aspectFill" src="../../../images/photo-1.png"></image>
+        <view class="title white">
+          <text class="author">冯静</text>
+          <text> / </text>
+          <text>旅居日本17年，华人妈妈打造不一样的亲子之旅</text>
+        </view>
+      </view>
+      <view class="footer">
+        <view class="tag-box">
+          <text class="tag">境外游</text>
+          <text class="tag">瑜伽</text>
+          <text class="tag">民宿</text>
+        </view>
+        <view class="share">
+          分享
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

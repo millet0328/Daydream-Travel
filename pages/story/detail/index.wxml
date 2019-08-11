@@ -1,0 +1,78 @@
+<!--pages/story/detail/index.wxml-->
+<view class="container">
+  <!-- header -->
+  <view class="header">
+    <view class="photo relative">
+      <image mode="aspectFill" src="../../../images/photo-1.png"></image>
+      <view class="title-box">
+        <view class="title white">
+          <text class="author">冯静</text>
+          <text> / </text>
+          <text>旅居日本17年，华人妈妈打造不一样的亲子之旅</text>
+        </view>
+        <view class="tag-box">
+          <text class="tag">境外游</text>
+          <text class="tag">瑜伽</text>
+          <text class="tag">民宿</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 作者板块 -->
+  <view class="section-box">
+    <view class="name black">
+      <view class="cn">TA是谁</view>
+      <view class="en">WHO</view>
+    </view>
+    <view class="content grey">
+      <view class="author-info">
+        赵雷，1986年7月20日生于北京，中国内地民谣歌手、音乐人。 2011年，赵雷发行个人第一张唱片《赵小雷》，专辑收录的主打歌曲《南方姑娘》被众多歌手及乐迷翻唱，赵雷也因此被更多人认识 。2014年发行第二张个人专辑《吉姆餐厅》。2015年1月，赵雷在山东济南举行的月木纹时光MINI live系列演唱会——赵雷专场开唱。 2017年2月，赵雷参加湖南卫视综艺节目《歌手》第三期，作为补位歌手演唱歌曲《成都》突围成功。
+      </view>
+      <view class="concept">
+        <view class="sub-title black">旅行理念</view>
+        <text>健康愿景的实现，是将健康融入所有政策：防控重大疾病，卫生应急体系不断健全；让人人享有安全血液，无偿献血成为健康生活的一部分；食品安全战略，让人民吃得放心；“天蓝”“水清”“土净”的“三大战役”齐头并进……
+        </text>
+      </view>
+    </view>
+  </view>
+  <!-- 推荐人 -->
+  <view class="section-box">
+    <view class="name black">
+      <view class="cn">旅行设计师推荐人</view>
+      <view class="en">FINDER</view>
+    </view>
+    <view class="recommender black">
+      <image src="../../../images/avatar.jpeg" class="avatar"></image>
+      <view>
+        <view class="nickname">惠君</view>
+        <view class="sologan">为一切偶然性带上冠冕</view>
+      </view>
+    </view>
+    <view class="content grey">
+      <view class="recommend-content">
+        赵雷，1986年7月20日生于北京，中国内地民谣歌手、音乐人。 2011年，赵雷发行个人第一张唱片《赵小雷》，专辑收录的主打歌曲《南方姑娘》被众多歌手及乐迷翻唱，赵雷也因此被更多人认识 。2014年发行第二张个人专辑《吉姆餐厅》。2015年1月，赵雷在山东济南举行的月木纹时光MINI live系列演唱会——赵雷专场开唱。 2017年2月，赵雷参加湖南卫视综艺节目《歌手》第三期，作为补位歌手演唱歌曲《成都》突围成功。
+      </view>
+    </view>
+  </view>
+  <!-- 故事 -->
+  <view class="section-box">
+    <view class="name black">
+      <view class="cn">旅行设计师的故事</view>
+      <view class="en">STORY</view>
+    </view>
+    <view class="content grey">
+      赵雷，1986年7月20日生于北京，中国内地民谣歌手、音乐人。 2011年，赵雷发行个人第一张唱片《赵小雷》，专辑收录的主打歌曲《南方姑娘》被众多歌手及乐迷翻唱，赵雷也因此被更多人认识 。2014年发行第二张个人专辑《吉姆餐厅》。2015年1月，赵雷在山东济南举行的月木纹时光MINI live系列演唱会——赵雷专场开唱。 2017年2月，赵雷参加湖南卫视综艺节目《歌手》第三期，作为补位歌手演唱歌曲《成都》突围成功。
+    </view>
+  </view>
+  <!-- 评论框 -->
+  <view class="footer">
+    <view class="comment-box">
+      <input class="input" placeholder="写评论..." />
+      <navigator url="../comment/index" class="link">
+        <icon type="success" size="20" />
+        <text class="num grey">23</text>
+      </navigator>
+      <icon type="success" class="share" size="20" />
+    </view>
+  </view>
+</view>

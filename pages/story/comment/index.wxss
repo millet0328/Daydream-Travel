@@ -1,0 +1,51 @@
+/* pages/story/comment/index.wxss */
+
+.container {
+  min-height: 110vh;
+}
+
+.comment-list .li {
+  padding: 32rpx;
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+
+.user .avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.comment-list .content {
+  font-size: 32rpx;
+  line-height: 64rpx;
+  padding-left: 100rpx;
+  padding-bottom: 20rpx;
+}
+
+.comment-list .action-box {
+  padding-left: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-list .action-box .date {
+  color: #999;
+  font-size: 26rpx;
+}
+
+.comment-list .action-box .reply {
+  border: 2rpx solid #ffd11b;
+  padding: 6rpx 20rpx;
+  border-radius: 30rpx;
+  display: inline-block;
+  font-size: 24rpx;
+}

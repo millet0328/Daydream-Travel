@@ -1,1 +1,105 @@
 /* pages/story/list/index.wxss */
+
+swiper {
+  width: 90%;
+  height: 465rpx;
+  margin: 10rpx auto;
+}
+
+.slide-image {
+  width: 100%;
+  height: 465rpx;
+}
+
+/* 列表 */
+
+.list {
+  width: 90%;
+  margin: 30rpx auto;
+}
+
+.list .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15rpx;
+  font-size: 20rpx;
+}
+
+.list .li {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 8rpx;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+
+.header .left {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header .avatar {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}
+
+.header .nickname {
+  margin: 0 20rpx;
+  font-size: 28rpx;
+}
+
+.photo image {
+  width: 100%;
+  height: 420rpx;
+  display: block;
+}
+
+.photo::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+}
+
+.photo .title {
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  font-size: 32rpx;
+  z-index: 10;
+  padding: 30rpx 28rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.photo .title::before {
+  content: "“";
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 60rpx;
+  position: absolute;
+  left: -24rpx;
+  top: 10rpx;
+}
+
+.footer {
+  padding: 20rpx;
+  background-color: white;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-box .tag {
+  padding: 4rpx 16rpx;
+  border: 2rpx solid #ffd11b;
+  margin-right: 10rpx;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  color: #ffd11b;
+}

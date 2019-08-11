@@ -3,7 +3,7 @@
 .tab-title {
   font-size: 26rpx;
   text-align: center;
-  background-color: #ffb11b;
+  background-color: #ffd11b;
   padding: 10rpx 0;
 }
 
@@ -19,7 +19,7 @@
 
 .tab-item {
   line-height: 52rpx;
-  border-bottom: 2rpx solid #ffb11b;
+  border-bottom: 2rpx solid #ffd11b;
 }
 
 .tab-item.active {
@@ -52,7 +52,7 @@
   top: 0;
   font-size: 26rpx;
   padding: 10rpx 24rpx;
-  background-color: #ffb11b;
+  background-color: #ffd11b;
   color: #333;
   border-bottom-right-radius: 15rpx;
 }
@@ -64,7 +64,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 80%;
+  height: 50%;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
 }
 
