@@ -1,0 +1,11 @@
+/* pages/setout/detail/index.wxss */
+
+swiper {
+  height: 465rpx;
+  margin: 0 auto;
+}
+
+.slide-image {
+  width: 100%;
+  height: 465rpx;
+}

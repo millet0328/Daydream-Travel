@@ -4,7 +4,7 @@
   min-height: 110vh;
 }
 
-.comment-list .li {
+.comment-list>.li {
   padding: 32rpx;
   background-color: white;
   margin-bottom: 20rpx;
@@ -23,14 +23,14 @@
   margin-right: 20rpx;
 }
 
-.comment-list .content {
+.comment-list .comment {
   font-size: 32rpx;
-  line-height: 64rpx;
+  line-height: 56rpx;
   padding-left: 100rpx;
-  padding-bottom: 20rpx;
 }
 
 .comment-list .action-box {
+  padding-bottom: 20rpx;
   padding-left: 100rpx;
   display: flex;
   justify-content: space-between;
@@ -49,3 +49,19 @@
   display: inline-block;
   font-size: 24rpx;
 }
+
+.reply-list {
+  padding: 10rpx 20rpx;
+  font-size: 32rpx;
+  margin-left: 100rpx;
+}
+
+.reply-list>.li {
+  display: block;
+  padding: 10rpx 0;
+}
+
+.reply-list .nickname {
+  font-weight: bold;
+}
+

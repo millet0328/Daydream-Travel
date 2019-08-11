@@ -21,7 +21,7 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.8.0",
 	"appid": "wxd798907fbdb596ba",
 	"projectname": "Travel",
 	"debugOptions": {

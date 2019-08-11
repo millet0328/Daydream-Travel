@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/story/comment/index",
+    "pages/setout/detail/index",
     "pages/story/list/index",
     "pages/story/detail/index",
+    "pages/story/comment/index",
     "pages/setout/list/index"
   ],
   "tabBar": {

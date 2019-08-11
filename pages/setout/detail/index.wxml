@@ -1,0 +1,12 @@
+<!--pages/setout/detail/index.wxml-->
+<view class="container">
+  <!-- 轮播图 -->
+  <swiper indicator-dots="true" indicator-color="white">
+    <swiper-item>
+      <image src="../../../images/photo-3.png" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="../../../images/photo-2.png" class="slide-image" />
+    </swiper-item>
+  </swiper>
+</view>

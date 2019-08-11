@@ -7,14 +7,28 @@
         <image class="avatar" src="../../../images/avatar.jpeg"></image>
         <text class="name grey">昵称昵称</text>
       </view>
-      <view class="content black">
-        内容内容内容内容内容内容内容内容内容内容内
+      <view class="comment black">内容内容内容内容内容内容内容内容内容内容内
       </view>
       <view class="action-box">
         <text class="date">2019-04-21</text>
         <navigator class="reply yellow">回复TA</navigator>
       </view>
-      <view class="reply-list">
+      <view class="reply-list bg-grey">
+        <text class="li">
+          <text class="nickname black">昵称：</text>
+        <text class="content grey">内容内容内容内内容内容内容内内容内容内容内内容内容内容内</text>
+        </text>
+        <text class="li">
+          <text class="nickname black">昵称：</text>
+        <text class="content grey">内容内容内容内内容内容内容内内容内容内容内内容内容内容内</text>
+        </text>
+        <text class="li">
+        <text class="nickname black">昵称</text>
+        <text> 回复 </text>
+        <text class="nickname black">昵称：</text>
+        <text class="content grey">内容内容内容内内容内容内容内内容内容内容内内容内容内容内</text>
+        </text>
+        <text class="li more">查看全部3条回复</text>
       </view>
     </view>
 
@@ -23,7 +37,7 @@
         <image class="avatar" src="../../../images/avatar.jpeg"></image>
         <text class="name grey">昵称昵称</text>
       </view>
-      <view class="content black">
+      <view class="comment black">
         内容内容内容内容内容内容内容内容内容内容内内容内容内容内容内容内容内容内容内容内容内
       </view>
       <view class="action-box">
