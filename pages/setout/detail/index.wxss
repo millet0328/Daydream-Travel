@@ -1,5 +1,7 @@
 /* pages/setout/detail/index.wxss */
 
+/* 轮播图 */
+
 swiper {
   height: 465rpx;
   margin: 0 auto;
@@ -8,4 +10,64 @@ swiper {
 .slide-image {
   width: 100%;
   height: 465rpx;
+}
+
+/* 基本信息 */
+
+.basic-info {
+  padding: 0 40rpx;
+}
+
+.tag-box {
+  padding: 20rpx 0 30rpx;
+}
+
+.tag-box .tag {
+  padding: 8rpx 30rpx;
+  margin-right: 20rpx;
+  border-radius: 40rpx;
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.tag-box .tag:nth-child(3n+1) {
+  background-color: #f4f3e5;
+}
+
+.tag-box .tag:nth-child(3n+2) {
+  background-color: #e5f3f4;
+}
+
+.tag-box .tag:nth-child(3n+3) {
+  background-color: #f2f2f2;
+}
+
+.basic-info .title {
+  font-size: 48rpx;
+  margin-bottom: 50rpx;
+  line-height: 68rpx;
+}
+
+.basic-info .date-time, .basic-info .location {
+  margin-bottom: 20rpx;
+  font-size: 33rpx;
+  display: flex;
+  align-items: center;
+}
+
+.advisor {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  padding-top: 30rpx;
+}
+
+.advisor .avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.advisor .name{
+  margin-bottom: 6rpx;
 }
