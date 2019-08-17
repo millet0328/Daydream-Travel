@@ -33,5 +33,35 @@
         <view class="sologan">博物 文化 博物 文化</view>
       </view>
     </view>
+    <view class="advisor-message relative">
+      <image class="triangle" src="../../../images/triangle.png"></image>
+      <view class="shadow">
+        <view class="message">
+          <rich-text nodes="{{advisorMsg}}"></rich-text>
+        </view>
+      </view>
+    </view>
   </view>
+  <!-- 选项卡 -->
+  <!-- 导航 -->
+  <view class='tab-title'>
+    <scroll-view scroll-x="true" scroll-left="{{scrollLeft}}">
+      <view class='scroll-x'>
+        <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">
+          亮点体验
+        </view>
+        <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">
+          行程安排
+        </view>
+        <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">
+          预订须知
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="tab-content">
+
+  </view>
+  <!--  -->
+  <view style="height:500rpx"></view>
 </view>
