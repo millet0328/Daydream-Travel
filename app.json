@@ -1,34 +1,37 @@
 {
   "pages": [
-    "pages/setout/detail/index",
     "pages/story/list/index",
     "pages/story/detail/index",
     "pages/story/comment/index",
-    "pages/setout/list/index"
+    "pages/free-travel/list/index",
+    "pages/free-travel/detail/index"
   ],
   "tabBar": {
-    "color": "#333",
-    "selectedColor": "#ffd11b",
+    "color": "#98d4ef",
+    "backgroundColor": "#30a9de",
+    "selectedColor": "#FFFFFF",
     "list": [
       {
         "text": "故事",
         "pagePath": "pages/story/list/index"
       },
       {
-        "text": "出发",
-        "pagePath": "pages/setout/list/index"
+        "text": "自由行",
+        "pagePath": "pages/free-travel/list/index"
+      },
+      {
+        "text": "跟团游",
+        "pagePath": "pages/free-travel/list/index"
       },
       {
         "text": "我的",
-        "pagePath": "pages/setout/list/index"
+        "pagePath": "pages/free-travel/list/index"
       }
     ]
   },
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffd11b",
-    "navigationBarTitleText": "旅行",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#30a9de",
+    "navigationBarTitleText": "漫妮旅行"
   },
   "sitemapLocation": "sitemap.json"
 }

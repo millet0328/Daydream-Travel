@@ -1,7 +1,7 @@
 <!--pages/story/list/index.wxml-->
 <view class="container">
   <!-- 轮播图 -->
-  <swiper>
+  <swiper indicator-dots autoplay>
     <swiper-item>
       <image src="../../../images/photo-3.png" class="slide-image" />
     </swiper-item>
@@ -11,23 +11,17 @@
   </swiper>
   <!-- 列表 -->
   <view class="list">
-    <navigator url="../detail/index" class="li">
-      <view class="header grey">
-        <view class="left">
-          <image src="../../../images/avatar.jpeg" class="avatar"></image>
-          <text class="nickname black">冯玲楠</text>
-          <text>为你推荐</text>
+    <view class="li">
+      <navigator url="../detail/index">
+        <view class="photo relative">
+          <image mode="aspectFill" src="../../../images/photo-1.png"></image>
+          <view class="title white">
+            <text class="author">冯静</text>
+            <text> / </text>
+            <text>旅居日本17年，华人妈妈打造不一样的亲子之旅</text>
+          </view>
         </view>
-        <text class="date">04-28</text>
-      </view>
-      <view class="photo relative">
-        <image mode="aspectFill" src="../../../images/photo-1.png"></image>
-        <view class="title white">
-          <text class="author">冯静</text>
-          <text> / </text>
-          <text>旅居日本17年，华人妈妈打造不一样的亲子之旅</text>
-        </view>
-      </view>
+      </navigator>
       <view class="footer">
         <view class="tag-box">
           <text class="tag">境外游</text>
@@ -35,27 +29,24 @@
           <text class="tag">民宿</text>
         </view>
         <view class="share">
-          分享
+          <text class="iconfont icon-fenxiang1"></text> 356
+        </view>
+        <view class="like">
+          <text class="iconfont icon-zan1"></text> 2156
         </view>
       </view>
-    </navigator>
-    <navigator url="../detail/index" class="li">
-      <view class="header grey">
-        <view class="left">
-          <image src="../../../images/avatar.jpeg" class="avatar"></image>
-          <text class="nickname black">冯玲楠</text>
-          <text>为你推荐</text>
+    </view>
+    <view class="li">
+      <navigator url="../detail/index">
+        <view class="photo relative">
+          <image mode="aspectFill" src="../../../images/photo-1.png"></image>
+          <view class="title white">
+            <text class="author">冯静</text>
+            <text> / </text>
+            <text>旅居日本17年，华人妈妈打造不一样的亲子之旅</text>
+          </view>
         </view>
-        <text class="date">04-28</text>
-      </view>
-      <view class="photo relative">
-        <image mode="aspectFill" src="../../../images/photo-1.png"></image>
-        <view class="title white">
-          <text class="author">冯静</text>
-          <text> / </text>
-          <text>旅居日本17年，华人妈妈打造不一样的亲子之旅</text>
-        </view>
-      </view>
+      </navigator>
       <view class="footer">
         <view class="tag-box">
           <text class="tag">境外游</text>
@@ -63,9 +54,12 @@
           <text class="tag">民宿</text>
         </view>
         <view class="share">
-          分享
+          <text class="iconfont icon-fenxiang1"></text> 356
+        </view>
+        <view class="like">
+          <text class="iconfont icon-zan1"></text> 2156
         </view>
       </view>
-    </navigator>
+    </view>
   </view>
 </view>

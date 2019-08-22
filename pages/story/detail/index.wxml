@@ -69,10 +69,9 @@
     <view class="comment-box">
       <input class="input" placeholder="写评论..." />
       <navigator url="../comment/index" class="link">
-        <icon type="success" size="20" />
-        <text class="num grey">23</text>
+        <text class="iconfont icon-pinglun"></text>
       </navigator>
-      <icon type="success" class="share" size="20" />
+      <text class="iconfont icon-fenxiang1"></text>
     </view>
   </view>
 </view>

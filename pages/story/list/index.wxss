@@ -77,15 +77,6 @@ swiper {
   box-sizing: border-box;
 }
 
-.photo .title::before {
-  content: "“";
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 60rpx;
-  position: absolute;
-  left: -24rpx;
-  top: 10rpx;
-}
-
 .footer {
   padding: 20rpx;
   background-color: white;
@@ -96,10 +87,21 @@ swiper {
 }
 
 .tag-box .tag {
-  padding: 4rpx 16rpx;
-  border: 2rpx solid #ffd11b;
+  padding: 8rpx 16rpx;
   margin-right: 10rpx;
-  border-radius: 30rpx;
+  border-radius: 40rpx;
   font-size: 24rpx;
-  color: #ffd11b;
+  display: inline-block;
+}
+
+.tag-box .tag:nth-child(3n+1) {
+  background-color: #f4f3e5;
+}
+
+.tag-box .tag:nth-child(3n+2) {
+  background-color: #e5f3f4;
+}
+
+.tag-box .tag:nth-child(3n+3) {
+  background-color: #f2f2f2;
 }

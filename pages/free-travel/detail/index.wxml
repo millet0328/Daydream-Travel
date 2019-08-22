@@ -19,12 +19,8 @@
     </view>
     <view class="title black">沉浸式旅行学院 | 与陈浩武、丛日云共走两希文明·以色列之旅</view>
     <view class="date-time grey">
-      <icon type="info" size="20"></icon>
+      <image class="icon-month" src="../../../icons/icon-rili.png"></image>
       <text>2019.9.15-2019.9.23(10天8夜)</text>
-    </view>
-    <view class="location grey">
-      <icon type="info" size="20"></icon>
-      <text>以色列</text>
     </view>
     <view class="advisor grey">
       <image class="avatar" src="../../../images/avatar.jpeg"></image>
@@ -66,7 +62,7 @@
         <view class="li">
           <view class="name-box">
             <view class="icon-calendar">
-              <image src="../../../images/icon-calendar.png"></image>
+              <image src="../../../icons/icon-calendar.png"></image>
             </view>
             <text class="name">DAY1：前往东京</text>
           </view>
@@ -84,7 +80,7 @@
         <view class="li">
           <view class="name-box">
             <view class="icon-calendar">
-              <image src="../../../images/icon-calendar.png"></image>
+              <image src="../../../icons/icon-calendar.png"></image>
             </view>
             <text class="name">DAY2：出发！由布院之森</text>
           </view>

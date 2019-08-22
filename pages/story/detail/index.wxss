@@ -150,7 +150,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 24rpx;
+}
+
+.comment-box .iconfont {
+  font-size: 40rpx;
 }
 
 .comment-box .input {
@@ -158,6 +161,7 @@
   padding: 6rpx 20rpx;
   width: 70%;
   border-radius: 40rpx;
+  font-size: 24rpx;
 }
 
 .comment-box .link {

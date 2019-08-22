@@ -3,7 +3,7 @@
 .tab-title {
   font-size: 26rpx;
   text-align: center;
-  background-color: #ffd11b;
+  background-color: #30a9de;
   padding: 10rpx 0;
 }
 
@@ -19,11 +19,12 @@
 
 .tab-item {
   line-height: 52rpx;
-  border-bottom: 2rpx solid #ffd11b;
+  border-bottom: 2rpx solid #30a9de;
 }
 
 .tab-item.active {
-  border-bottom: 2rpx solid #000;
+  font-weight: bold;
+  border-bottom: 4rpx solid #ffd11b;
 }
 
 /* 列表 */
@@ -85,4 +86,10 @@
 .title-box .title {
   font-size: 28rpx;
   padding-bottom: 10rpx;
+}
+
+.title-box .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
