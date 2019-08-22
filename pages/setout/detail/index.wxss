@@ -1,5 +1,9 @@
 /* pages/setout/detail/index.wxss */
 
+.container {
+  padding-bottom: 100rpx;
+}
+
 /* 轮播图 */
 
 swiper {
@@ -105,7 +109,7 @@ swiper {
 /* 选项卡 */
 
 .tab-title {
-  font-size: 26rpx;
+  font-size: 28rpx;
   text-align: center;
   border-bottom: 1rpx solid #eaeaea;
 }
@@ -129,4 +133,113 @@ swiper {
 .tab-item.active {
   color: #008d96;
   border-bottom: 2rpx solid #008d96;
+}
+
+.tab-content {
+  padding: 40rpx;
+}
+
+/* 行程安排-时间轴 */
+
+.schedule>.title {
+  font-size: 54rpx;
+  padding-bottom: 40rpx;
+}
+
+.schedule .tree {
+  border-left: 2rpx solid #dadada;
+  margin-left: 20rpx;
+  padding-left: 40rpx;
+}
+
+.schedule .tree .li {
+  margin-top: 30rpx;
+}
+
+.name-box, .date-box {
+  display: flex;
+  align-items: center;
+}
+
+.icon-calendar {
+  width: 56rpx;
+  height: 56rpx;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  line-height: 58rpx;
+  margin-left: -68rpx;
+}
+
+.icon-calendar image {
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.name-box .name {
+  margin-left: 18rpx;
+  font-size: 36rpx;
+}
+
+.date-box {
+  padding: 40rpx 0 20rpx;
+}
+
+.date-box .date {
+  margin-left: 24rpx;
+  font-size: 32rpx;
+}
+
+.icon-date {
+  width: 38rpx;
+  height: 38rpx;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  line-height: 30rpx;
+  margin-left: -58rpx;
+}
+
+.icon-date .icon-shikebiao {
+  font-size: 24rpx;
+  color: #333;
+}
+
+.schedule .content-box {
+  font-size: 28rpx;
+}
+
+.content-box image {
+  width: 100%;
+}
+
+/* 底部工具 */
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1rpx solid #eee;
+  text-align: center;
+  font-size: 24rpx;
+  padding: 16rpx 0;
+}
+
+.bottom-bar .iconfont {
+  font-size: 40rpx;
+}
+
+.bottom-bar .btn {
+  margin: 0;
+  padding: 14rpx 60rpx;
+  font-size: 36rpx;
+  line-height: 56rpx;
+  background-color: #4a90ce;
 }
