@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/user/center/index",
+    "pages/user/join/index",
     "pages/story/list/index",
     "pages/story/detail/index",
     "pages/story/comment/index",
@@ -25,7 +27,7 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/free-travel/list/index"
+        "pagePath": "pages/user/center/index"
       }
     ]
   },

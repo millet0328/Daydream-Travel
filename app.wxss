@@ -19,7 +19,12 @@
 .bg-grey {
   background-color: #f8f8f8;
 }
-
+.bg-blue {
+  background-color: #4a90ce;
+}
+.bg-white {
+  background-color: white;
+}
 .relative {
   position: relative;
 }
