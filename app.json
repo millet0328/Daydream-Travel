@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/free-travel/list/index",
     "pages/user/center/index",
     "pages/user/join/index",
     "pages/story/list/index",
     "pages/story/detail/index",
     "pages/story/comment/index",
-    "pages/free-travel/list/index",
     "pages/free-travel/detail/index"
   ],
   "tabBar": {

@@ -3,24 +3,29 @@
   <!-- 导航 -->
   <view class='tab-title white'>
     <scroll-view scroll-x="true" scroll-left="{{scrollLeft}}">
-      <view class='scroll-x'>
-        <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">
-          航线精选
-        </view>
-        <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">
-          阿拉斯加
-        </view>
-        <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">
-          加勒比海
-        </view>
-        <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">
-          澳新
-        </view>
-        <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">
-          搜索
-        </view>
+      <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">
+        航线精选
+      </view>
+      <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">
+        阿拉斯加
+      </view>
+      <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">
+        加勒比海
+      </view>
+      <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">
+        澳新
+      </view>
+      <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">
+        澳新
+      </view>
+      <view class="tab-item {{currentTab==5?'active':''}}" data-current="5" bindtap="swichNav">
+        澳新
+      </view>
+      <view class="tab-item {{currentTab==6?'active':''}}" data-current="6" bindtap="swichNav">
+        澳新
       </view>
     </scroll-view>
+    <text class="iconfont icon-sousuoxiao"></text>
   </view>
   <!-- 列表 -->
   <view class="tab-content">
@@ -68,5 +73,9 @@
         </navigator>
       </view>
     </view>
+  </view>
+  <!-- 搜索弹窗 -->
+  <view class="search-modal">
+
   </view>
 </view>
