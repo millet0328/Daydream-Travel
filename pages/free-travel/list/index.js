@@ -7,6 +7,7 @@ Page({
   data: {
     currentTab: 0, //预设当前项的值
     scrollLeft: 0, //tab标题的滚动条位置
+    showModal: true,
   },
   // 滚动切换标签样式
   switchTab(e) {
@@ -29,9 +30,9 @@ Page({
     this.loadList(cur);
   },
   // 获取列表数据
-  loadList: function (i) { },
+  loadList: function(i) {},
   //判断当前滚动超过一屏时，设置tab标题滚动条。
-  checkPosition: function () {
+  checkPosition: function() {
     if (this.data.currentTab > 4) {
       this.setData({
         scrollLeft: 300
@@ -42,59 +43,71 @@ Page({
       })
     }
   },
+  // 显示搜索框
+  showSearchModal(e) {
+    this.setData({
+      showModal: true
+    })
+  },
+  // 隐藏搜索框
+  hideSearchModal() {
+    this.setData({
+      showModal: false
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  onReady: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
+  onHide: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
+  onUnload: function() {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
+  onPullDownRefresh: function() {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
+  onReachBottom: function() {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
+  onShareAppMessage: function() {
 
   }
 })

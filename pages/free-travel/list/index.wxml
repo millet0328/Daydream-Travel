@@ -1,5 +1,5 @@
 <!--pages/setout/list/index.wxml-->
-<view class="container">
+<view class="container {{showModal?'freeze':''}}">
   <!-- 导航 -->
   <view class='tab-title white'>
     <scroll-view scroll-x="true" scroll-left="{{scrollLeft}}">
@@ -25,11 +25,11 @@
         澳新
       </view>
     </scroll-view>
-    <text class="iconfont icon-sousuoxiao"></text>
+    <text catchtap="showSearchModal" class="iconfont icon-sousuoxiao"></text>
   </view>
   <!-- 列表 -->
   <view class="tab-content">
-    <view class="list">
+    <view class="goods-list">
       <view class="li">
         <navigator url="../detail/index">
           <view class="photo relative">
@@ -75,7 +75,49 @@
     </view>
   </view>
   <!-- 搜索弹窗 -->
-  <view class="search-modal">
-
+  <view class="search-modal {{showModal?'active':''}}">
+    <!-- 搜索框 -->
+    <view class="search-box">
+      <input class="input" placeholder="输入目的地、喜好等"></input>
+      <button class="btn white bg-blue" size="mini">搜 索</button>
+    </view>
+    <!-- 推荐 -->
+    <view class="title black">推荐目的地</view>
+    <view class="suggest">
+      <view class="section">
+        <view class="name blue">国内</view>
+        <view class="list">
+          <view class="li">北京</view>
+          <view class="li">杭州</view>
+          <view class="li">北京</view>
+          <view class="li">北京</view>
+          <view class="li">北京</view>
+        </view>
+      </view>
+      <view class="section">
+        <view class="name blue">国外</view>
+        <view class="list">
+          <view class="li">贝加尔湖</view>
+          <view class="li">日本</view>
+          <view class="li">不丹</view>
+          <view class="li">以色列</view>
+          <view class="li">美国</view>
+        </view>
+      </view>
+    </view>
+    <view class="title black">热门旅行喜好</view>
+    <view class="hot-fav">
+      <view class="section">
+        <view class="list">
+          <view class="li">艺术</view>
+          <view class="li">团建</view>
+          <view class="li">亲子</view>
+          <view class="li">历史</view>
+          <view class="li">自然</view>
+        </view>
+      </view>
+    </view>
   </view>
+  <!-- 黑色遮罩 -->
+  <view bind:tap="hideSearchModal" class="shadow"></view>
 </view>
