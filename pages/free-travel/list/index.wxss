@@ -121,6 +121,7 @@
   height: 100%;
   padding: 20rpx;
   box-sizing: border-box;
+  overflow: auto;
   background-color: white;
   transition: all 0.5s;
   visibility: hidden;

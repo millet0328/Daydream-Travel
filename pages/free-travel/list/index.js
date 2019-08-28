@@ -7,7 +7,7 @@ Page({
   data: {
     currentTab: 0, //预设当前项的值
     scrollLeft: 0, //tab标题的滚动条位置
-    showModal: true,
+    showModal: false,
   },
   // 滚动切换标签样式
   switchTab(e) {
@@ -73,7 +73,12 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function() {
-
+    if (typeof this.getTabBar === 'function' &&
+      this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 1
+      })
+    }
   },
 
   /**

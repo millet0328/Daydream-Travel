@@ -6,7 +6,9 @@
     "pages/story/list/index",
     "pages/story/detail/index",
     "pages/story/comment/index",
-    "pages/free-travel/detail/index"
+    "pages/free-travel/detail/index",
+    "pages/team-travel/list/index",
+    "pages/demand/add/index"
   ],
   "tabBar": {
     "color": "#98d4ef",
@@ -15,19 +17,33 @@
     "list": [
       {
         "text": "故事",
-        "pagePath": "pages/story/list/index"
+        "pagePath": "pages/story/list/index",
+        "iconPath": "icons/icon-book.png",
+        "selectedIconPath": "icons/icon-book-active.png"
       },
       {
         "text": "自由行",
-        "pagePath": "pages/free-travel/list/index"
+        "pagePath": "pages/free-travel/list/index",
+        "iconPath": "icons/icon-trunk.png",
+        "selectedIconPath": "icons/icon-trunk-active.png"
+      },
+      {
+        "text": "提交需求",
+        "pagePath": "pages/demand/add/index",
+        "iconPath": "icons/tab-bar-plus.png",
+        "selectedIconPath": "icons/tab-bar-plus.png"
       },
       {
         "text": "跟团游",
-        "pagePath": "pages/free-travel/list/index"
+        "pagePath": "pages/team-travel/list/index",
+        "iconPath": "icons/icon-flag.png",
+        "selectedIconPath": "icons/icon-flag-active.png"
       },
       {
         "text": "我的",
-        "pagePath": "pages/user/center/index"
+        "pagePath": "pages/user/center/index",
+        "iconPath": "icons/icon-user.png",
+        "selectedIconPath": "icons/icon-user-active.png"
       }
     ]
   },

@@ -1,14 +1,19 @@
 <!--pages/story/list/index.wxml-->
 <view class="container">
   <!-- 轮播图 -->
-  <swiper indicator-dots autoplay>
-    <swiper-item>
-      <image src="../../../images/photo-3.png" class="slide-image" />
-    </swiper-item>
-    <swiper-item>
-      <image src="../../../images/photo-2.png" class="slide-image" />
-    </swiper-item>
-  </swiper>
+  <view class="swiper-container">
+    <swiper indicator-dots indicator-color="rgba(255,255,255,0.4)" indicator-active-color="#ffd11b" autoplay>
+      <swiper-item>
+        <image src="../../../images/banner.jpg" class="slide-image" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../images/banner.jpg" class="slide-image" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../images/banner.jpg" class="slide-image" />
+      </swiper-item>
+    </swiper>
+  </view>
   <!-- 列表 -->
   <view class="list">
     <view class="li">

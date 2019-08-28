@@ -50,7 +50,7 @@
 }
 
 .basic .sex {
-  font-size: 24rpx;
+  font-size: 28rpx;
 }
 
 .contact {
