@@ -31,7 +31,7 @@
         "text": "提交需求",
         "pagePath": "pages/demand/add/index",
         "iconPath": "icons/tab-bar-plus.png",
-        "selectedIconPath": "icons/tab-bar-plus.png"
+        "selectedIconPath": "icons/tab-bar-plus-active.png"
       },
       {
         "text": "跟团游",
